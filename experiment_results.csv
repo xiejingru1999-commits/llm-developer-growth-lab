@@ -1,0 +1,7 @@
+﻿status,success,,
+,,,
+行标签,计数项:observed_output_tokens_per_second,平均值项:duration_seconds,平均值项:output_tokens
+A,2,60.2945,324
+B,3,23.34366667,1404.333333
+C,3,6.481666667,2253
+总计,8,26.258125,1452.5

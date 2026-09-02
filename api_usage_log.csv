@@ -1,0 +1,22 @@
+﻿timestamp,model,input_tokens,output_tokens,total_tokens,duration_seconds,status,error
+2026-08-28T13:59:14,LFM2.5-2.6B,0,0,0,1.033,error,"Error code: 400 - {'error': {'message': LFM2.5-2.6B is not a valid model ID', 'code': 400}, 'user_id': 'user_3IWYMdXt5xI7TNkiOPYmP0N8RPh'}"
+2026-08-28T14:06:15,LFM2.5-2.6B,0,0,0,1.168,error,"Error code: 400 - {'error': {'message': 'LFM2.5-2.6B is not a valid model ID', 'code': 400}, 'user_id': 'user_3IWYMdXt5xI7TNkiOPYmP0N8RPh'}"
+2026-08-28T14:08:07,LFM2.5-2.6B,0,0,0,1.049,error,"Error code: 400 - {'error': {'message': 'LFM2.5-2.6B is not a valid model ID', 'code': 400}, 'user_id': 'user_3IWYMdXt5xI7TNkiOPYmP0N8RPh'}"
+2026-08-28T14:09:37,LFM2.5-2.6B,0,0,0,0.917,error,"Error code: 400 - {'error': {'message': 'LFM2.5-2.6B is not a valid model ID', 'code': 400}, 'user_id': 'user_3IWYMdXt5xI7TNkiOPYmP0N8RPh'}"
+2026-08-28T14:10:09,LFM2.5-2.6B,0,0,0,1.043,error,"Error code: 400 - {'error': {'message': 'LFM2.5-2.6B is not a valid model ID', 'code': 400}, 'user_id': 'user_3IWYMdXt5xI7TNkiOPYmP0N8RPh'}"
+2026-08-28T14:10:42,LFM2.5-2.6B,0,0,0,0.939,error,"Error code: 400 - {'error': {'message': 'LFM2.5-2.6B is not a valid model ID', 'code': 400}, 'user_id': 'user_3IWYMdXt5xI7TNkiOPYmP0N8RPh'}"
+2026-08-28T14:10:51,LFM2.5-2.6B,0,0,0,1.005,error,"Error code: 400 - {'error': {'message': 'LFM2.5-2.6B is not a valid model ID', 'code': 400}, 'user_id': 'user_3IWYMdXt5xI7TNkiOPYmP0N8RPh'}"
+2026-08-28T14:13:26,liquid/lfm-2.5-2.6b:free,17,353,370,7.923,success,
+2026-08-28T14:14:26,liquid/lfm-2.5-2.6b:free,23,1049,1072,7.623,success,
+2026-08-28T14:16:59,liquid/lfm-2.5-2.6b:free,0,0,0,115.971,error,"Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'liquid/lfm-2.5-2.6b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Liquid', 'is_byok': False, 'provider_error_code': 'rate_limit_exceeded', 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'retry_after_seconds': 59, 'retry_after_seconds_raw': 59, 'headers': {'Retry-After': '59'}}}, 'user_id': 'user_3IWYMdXt5xI7TNkiOPYmP0N8RPh'}"
+2026-08-28T14:22:47,liquid/lfm-2.5-2.6b:free,37,2207,2244,24.485,success,
+2026-08-28T14:27:01,liquid/lfm-2.5-2.6b:free,17,415,432,114.516,success,
+2026-08-28T14:28:15,liquid/lfm-2.5-2.6b:free,17,405,422,2.502,success,
+2026-08-28T14:28:22,liquid/lfm-2.5-2.6b:free,17,300,317,2.2,success,
+2026-08-28T14:29:23,liquid/lfm-2.5-2.6b:free,23,1295,1318,7.724,success,
+2026-08-28T14:31:31,liquid/lfm-2.5-2.6b:free,23,898,921,4.953,success,
+2026-08-28T14:31:43,liquid/lfm-2.5-2.6b:free,23,1624,1647,9.022,success,
+2026-08-28T14:35:55,liquid/lfm-2.5-2.6b:free,37,1973,2010,7.115,success,
+2026-08-28T14:37:05,liquid/lfm-2.5-2.6b:free,37,2183,2220,66.63,success,
+2026-08-28T14:37:14,liquid/lfm-2.5-2.6b:free,37,1826,1863,5.176,success,
+2026-08-28T14:37:27,liquid/lfm-2.5-2.6b:free,37,2552,2589,7.334,success,
