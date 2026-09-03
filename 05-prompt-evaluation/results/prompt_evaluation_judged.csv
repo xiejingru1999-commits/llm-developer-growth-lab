@@ -1,0 +1,7 @@
+﻿Prompt Variant,API Success Rate,Compliance Rate,Avg Total Tokens,Median Latency (s),Avg Rule Quality v2,Avg Judge Accuracy,Avg Judge Overall,,Prompt,Avg Total Tokens,Judge Overall,,,,,Prompt,Median Latency (s)
+A_minimal,100%,100%,740.0 ,6.274,9.6,3,4.2,,A_minimal,740.0 ,4.2,,,,,A_minimal,6.274
+B_structured,100%,100%,516.6 ,3.025,9.4,4.4,4.8,,B_structured,516.6 ,4.8,,,,,B_structured,3.025
+C_constrained,100%,100%,586.8 ,3.027,9.6,4.6,4.6,,C_constrained,586.8 ,4.6,,Prompt,Judge Accuracy,,C_constrained,3.027
+,,,,,,,,,,,,,A_minimal,3,,,
+,,,,,,,,,,,,,B_structured,4.4,,,
+,,,,,,,,,,,,,C_constrained,4.6,,,

@@ -1,0 +1,429 @@
+﻿timestamp,model,prompt_variant,run,status,finish_reason,input_tokens,output_tokens,total_tokens,duration_seconds,observed_output_tokens_per_second,word_count,shared_quality_score,shared_quality_max,compliance_score,compliance_max,response,error,shared_quality_score_v1,shared_quality_max_v1,shared_quality_score_v2,shared_quality_max_v2,context_correct,input_price_correct,output_price_correct,tool_calling_present,json_present,openai_compatible_present,developer_value_present,developer_value_strong,hallucination_free,cta_present
+2026-09-02T20:14:19.576197,minimax/minimax-m3:free,A_minimal,1,success,stop,236,472,708,16.003,29.494,309,8,8,1,1,"# Introducing Spark-X1: A New Foundation for Production AI Applications
+
+Today we're launching **Spark-X1**, a new model purpose-built for developers shipping AI-powered products at scale.
+
+## Why Spark-X1
+
+Most AI models force you into a trade-off: cheap inference, or serious capability. Spark-X1 ends that compromise. With a 128K context window and pricing starting at $0.20 per million input tokens, you get long-context reasoning without long-context bills.
+
+## What's in the box
+
+- **128K context window** — process full codebases, lengthy documents, and multi-turn agent sessions without trimming context
+- **Tool calling** — first-class function calling for building agents and orchestrating external systems
+- **JSON structured output** — reliable, schema-validated responses you can pipe straight into your application
+- **OpenAI-compatible API** — drop-in replacement. Swap your base URL, keep your existing SDK and code
+
+## Pricing
+
+| Direction | Price per 1M tokens |
+|-----------|---------------------|
+| Input     | $0.20               |
+| Output    | $0.80               |
+
+For most production workloads, that works out to a fraction of what you'd pay on comparable frontier models, without sacrificing the features you need to ship.
+
+## Built for developers
+
+Spark-X1 is an **inference-friendly model for AI application developers**, not a research preview. That means:
+
+- Predictable latency
+- Stable structured outputs you can trust in production
+- An API surface that matches the OpenAI SDK, so migration takes minutes
+- Token pricing that scales linearly with real usage, not padded context windows
+
+## Get started
+
+```bash
+curl https://api.spark.example.com/v1/chat/completions \
+  -H ""Authorization: Bearer $SPARK_API_KEY"" \
+  -d '{
+    ""model"": ""spark-x1"",
+    ""messages"": [{""role"": ""user"", ""content"": ""Summarize this codebase""}],
+    ""tools"": [...]
+  }'
+```
+
+Documentation, quickstart guides, and the full API reference are live today at **spark.example.com/docs**.
+
+## Try it now
+
+Spark-X1 is available immediately to all developers. New accounts receive free credits to evaluate the model against your real workloads.
+
+We can't wait to see what you build.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:14:22.553612,minimax/minimax-m3:free,A_minimal,2,success,stop,236,432,668,2.977,145.12,284,8,8,1,1,"# Introducing Spark-X1: Powering the Next Generation of AI Applications
+
+We're excited to announce the launch of **Spark-X1**, a production-ready language model built for developers who need reliable performance at a competitive price point.
+
+## Why Spark-X1?
+
+Spark-X1 strikes a deliberate balance between capability, context, and cost. With a **128K token context window**, it can handle long documents, multi-turn conversations, and complex agent workflows without losing the thread. At **$0.20 per million input tokens** and **$0.80 per million output tokens**, it's priced to scale with your application—not against it.
+
+## What's in the Box
+
+**Built for production engineering:**
+
+- **Tool calling** — Wire Spark-X1 into your existing toolchains, function APIs, and agent loops out of the box.
+- **JSON structured output** — Get clean, parseable responses for downstream pipelines, databases, and UI rendering.
+- **OpenAI-compatible API** — Drop-in replacement for existing OpenAI client code. Swap your base URL, keep your codebase.
+
+No new SDK to learn. No proprietary transport. Just an API that works with the tools you already use.
+
+## Built For
+
+Spark-X1 is aimed squarely at **AI application developers** shipping:
+
+- Chatbots and conversational interfaces
+- Document analysis and RAG systems
+- Workflow automations and AI agents
+- Structured data extraction pipelines
+- Code generation and developer tools
+
+If you're building anything that talks to an LLM as part of a larger product, Spark-X1 is designed to be the reliable default.
+
+## Get Started
+
+```bash
+curl https://api.spark-x1.example.com/v1/chat/completions \
+  -H ""Authorization: Bearer $SPARK_API_KEY"" \
+  -d '{
+    ""model"": ""spark-x1"",
+    ""messages"": [{""role"": ""user"", ""content"": ""Hello, world.""}]
+  }'
+```
+
+Documentation, API references, and quickstart guides are available today at the developer portal.
+
+---
+
+**Spark-X1 is available now.** Sign up for an API key and start building.",,8,8,8,10,1,1,1,1,1,1,0,0,1,1
+2026-09-02T20:14:31.245870,minimax/minimax-m3:free,A_minimal,3,success,stop,236,627,863,8.691,72.145,398,8,8,1,1,"# Introducing Spark-X1: A New Foundation for Production AI Applications
+
+Today, we're launching **Spark-X1**, a powerful new model built for developers who need reliability, flexibility, and cost efficiency at scale.
+
+## Why Spark-X1?
+
+Modern AI applications demand more than just raw capability. They need long context, predictable structure, and seamless integration with existing toolchains. Spark-X1 delivers all three without compromise.
+
+## What's in the Box
+
+**🧠 128K Context Window**
+Process entire codebases, long documents, and multi-turn conversations without losing the thread. Spark-X1 handles the kind of complex, context-heavy workloads that trip up smaller models.
+
+**🛠️ First-Class Tool Calling**
+Native support for function calling and tool use, so you can build agents, automation pipelines, and orchestrated systems that actually work in production.
+
+**📋 Structured JSON Output**
+Get reliable, parseable outputs every time. Perfect for feeding downstream systems, populating databases, and powering type-safe workflows.
+
+**🔌 OpenAI-Compatible API**
+Drop-in compatibility with the OpenAI API spec. If you're already running against OpenAI's endpoints, switching to Spark-X1 takes minutes—not weeks. Your existing SDKs, libraries, and integrations just work.
+
+## Pricing That Makes Sense
+
+| | Price per 1M tokens |
+|---|---|
+| **Input** | $0.20 |
+| **Output** | $0.80 |
+
+That's a **4× ratio** between input and output—designed to reward the conversational, retrieval-heavy, and agentic workloads that dominate real applications.
+
+## Built for AI Developers
+
+Spark-X1 was designed with one audience in mind: **the developers shipping AI products**. Whether you're building:
+
+- 🤖 **AI agents** that chain tools and reason across long histories
+- 📄 **Document processing systems** that need to ingest and reason over large files
+- 💬 **Conversational applications** with deep, multi-turn context
+- ⚙️ **Internal automation** that requires structured, reliable outputs
+
+...Spark-X1 gives you the primitives you need, without locking you into a proprietary stack.
+
+## Getting Started
+
+Switching is simple. Point your OpenAI-compatible client at our endpoint, set your API key, and you're live.
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url=""https://api.spark.ai/v1"",
+    api_key=""YOUR_API_KEY""
+)
+
+response = client.chat.completions.create(
+    model=""spark-x1"",
+    messages=[{""role"": ""user"", ""content"": ""Hello, Spark-X1!""}]
+)
+```
+
+Full documentation, examples, and migration guides are available in our developer portal.
+
+## Try It Today
+
+We're excited to see what you create with Spark-X1. Sign up for an API key, explore the docs, and start building.
+
+**🚀 [Get your API key →](https://spark.ai/signup)**
+
+Questions? Find us on Discord, or reach out to our developer relations team at developers@spark.ai.
+
+Welcome to Spark. ⚡",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:14:35.530778,minimax/minimax-m3:free,A_minimal,4,success,stop,236,384,620,4.283,89.663,239,8,8,1,1,"# Introducing Spark-X1: Fast, Reliable Intelligence for Builders
+
+Today we're launching **Spark-X1**, a production-ready language model built for developers who care about latency, cost, and clean integrations.
+
+## What's in the box
+
+**128K context window**
+Process long documents, multi-turn conversations, and large codebases in a single call. No clever chunking required.
+
+**Tool calling**
+Native function calling with structured argument validation. Wire Spark-X1 into your existing agent frameworks without workarounds.
+
+**JSON structured output**
+Constrained decoding for reliable, schema-conformant responses. Parse with confidence, retry less.
+
+**OpenAI-compatible API**
+Drop-in replacement. Point your existing SDK at our endpoint, swap the base URL, ship.
+
+## Pricing
+
+We priced Spark-X1 to make iteration cheap.
+
+| | Price per 1M tokens |
+|---|---|
+| Input | $0.20 |
+| Output | $0.80 |
+
+The 4:1 input-to-output ratio reflects how most real applications actually use tokens: heavy on context, lighter on generation.
+
+## Who it's for
+
+**AI application developers** building:
+- Agents and tool-using assistants
+- RAG pipelines over long documents
+- Structured data extraction systems
+- Multi-step reasoning workflows
+
+If you've been waiting for a model that's pleasant to integrate, predictable to budget for, and fast enough for interactive use — Spark-X1 is it.
+
+## Get started
+
+```bash
+curl https://api.spark.example/v1/chat/completions \
+  -H ""Authorization: Bearer $SPARK_API_KEY"" \
+  -d '{
+    ""model"": ""spark-x1"",
+    ""messages"": [{""role"": ""user"", ""content"": ""Hello, world.""}]
+  }'
+```
+
+Full docs, SDK examples, and the playground are live at **spark.example**.
+
+Start building. We'll keep the latency low.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:14:41.806239,minimax/minimax-m3:free,A_minimal,5,success,stop,236,605,841,6.274,96.429,381,8,8,1,1,"# Introducing Spark-X1: A Fast, Affordable LLM for Production AI Applications
+
+Today we're launching **Spark-X1**, a new large language model built for developers who need to ship AI-powered products without breaking the bank.
+
+## Why Spark-X1?
+
+Most teams building real AI applications run into the same wall: powerful models are too expensive at scale, and cheaper models can't handle the context or features you actually need. Spark-X1 is designed to sit in the sweet spot — capable enough for complex tasks, priced for production workloads, and packaged with the developer features you expect.
+
+## What's in the Box
+
+- **128K context window** — process long documents, multi-turn conversations, and large codebases in a single request.
+- **Tool calling** — build agents that interact with external APIs, databases, and services.
+- **JSON structured output** — get reliable, parseable responses for downstream pipelines.
+- **OpenAI-compatible API** — drop it into your existing stack with a one-line base URL change.
+
+## Pricing
+
+| | Price per 1M tokens |
+|---|---|
+| Input | $0.20 |
+| Output | $0.80 |
+
+That's it. No rate limit surprises, no token-counting gotchas.
+
+## Built for Developers
+
+If you've used the OpenAI SDK, you already know how to use Spark-X1:
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=""YOUR_SPARK_API_KEY"",
+    base_url=""https://api.spark.ai/v1"",
+)
+
+response = client.chat.completions.create(
+    model=""spark-x1"",
+    messages=[{""role"": ""user"", ""content"": ""Summarize this document...""}],
+    response_format={""type"": ""json_object""},
+    tools=[...],
+)
+```
+
+Structured outputs work. Function calling works. Streaming works.
+
+## Who It's For
+
+Spark-X1 is built for **AI application developers** — the people shipping LLM features into real products:
+
+- **Agent builders** who need tool calling and structured outputs that don't fail in production.
+- **Document and code workflows** that benefit from a 128K context window.
+- **Cost-sensitive teams** running high-volume workloads where every tenth of a cent per token matters.
+- **Teams migrating off larger providers** who want a drop-in alternative without rewriting their stack.
+
+## Get Started
+
+- **Docs:** [docs.spark.ai/spark-x1](https://docs.spark.ai/spark-x1)
+- **API reference:** [docs.spark.ai/api](https://docs.spark.ai/api)
+- **Free tier:** Sign up and get $5 in credits to evaluate the model on your own workloads.
+
+We can't wait to see what you build with it. If you have feedback, feature requests, or just want to show off what you've shipped, reach out at [hello@spark.ai](mailto:hello@spark.ai) or join our Discord.
+
+Happy building.
+
+**— The Spark team**",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:14:44.656543,minimax/minimax-m3:free,B_structured,1,success,stop,300,226,526,2.85,79.302,154,8,8,2,2,"**Introducing Spark-X1: A New Foundation Model for Production AI Apps**
+
+We're excited to announce **Spark-X1**, a powerful new model built for developers shipping AI features at scale. With a generous **128K context window**, Spark-X1 can handle long documents, extended conversations, and multi-file code analysis in a single pass.
+
+Spark-X1 ships with **tool calling** for building capable agents, and **native JSON structured output** for reliable downstream parsing. Whether you're extracting data, routing actions, or chaining models into larger workflows, you get predictable, parseable responses every time.
+
+Pricing is straightforward: **$0.20 per 1M input tokens** and **$0.80 per 1M output tokens**, competitive rates designed to keep inference costs predictable as you grow.
+
+Best of all, Spark-X1 is served through an **OpenAI-compatible API**. Drop it into existing SDKs, swap a base URL, and you're running. No rewrites, no new abstractions, no lock-in.
+
+Get an API key, point your OpenAI client at the Spark-X1 endpoint, and ship today.",,8,8,9,10,1,1,1,1,1,1,1,1,1,0
+2026-09-02T20:15:02.373737,minimax/minimax-m3:free,B_structured,2,success,stop,300,212,512,17.716,11.966,143,8,8,2,2,"We're excited to introduce **Spark-X1**, a new AI model built for production-grade applications.
+
+**Key capabilities**
+
+- **128K context window** — handle long documents, multi-turn conversations, and complex reasoning in a single call.
+- **Tool calling** — connect Spark-X1 to your APIs, databases, and functions to build capable agents.
+- **JSON structured output** — reliably extract structured data for pipelines, forms, and automation workflows.
+- **OpenAI-compatible API** — drop-in replacement that works with the OpenAI SDK and most existing tooling. No new SDK, no rewrite, just change the base URL and you're running.
+
+**Pricing**
+
+- Input: $0.20 / 1M tokens
+- Output: $0.80 / 1M tokens
+
+This makes Spark-X1 a strong fit for cost-sensitive workloads like document processing, RAG, code generation, and customer-facing chat.
+
+**Get started today** — check out the docs, grab your API key, and ship your first Spark-X1 integration in minutes.",,8,8,8,10,1,1,1,1,1,1,0,0,1,1
+2026-09-02T20:15:05.400499,minimax/minimax-m3:free,B_structured,3,success,stop,300,210,510,3.025,69.411,146,8,8,2,2,"Introducing **Spark-X1**, a new AI model built for production-grade AI applications.
+
+Spark-X1 comes with a 128K context window, allowing you to process long documents, multi-turn conversations, and complex reasoning tasks in a single request. Pricing is straightforward at **$0.20 per 1M input tokens** and **$0.80 per 1M output tokens**, giving you predictable costs whether you're building chat assistants, document analyzers, or backend automation.
+
+For developers, Spark-X1 ships with native **tool calling** and **JSON structured output**, making it straightforward to integrate into agentic workflows and typed pipelines. Because the API is **OpenAI-compatible**, you can drop Spark-X1 into existing codebases that already use the OpenAI SDK with nothing more than a base URL change. No rewrites, no new abstractions, no retraining your team on a new client library.
+
+If you're already shipping with OpenAI, switching to Spark-X1 is a one-line config change. Try it today and start building.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:15:09.185242,minimax/minimax-m3:free,B_structured,4,success,stop,300,232,532,3.784,61.317,149,8,8,2,2,"Introducing **Spark-X1**, a new AI model built for developers shipping production AI applications. Spark-X1 delivers a 128K token context window, making it well-suited for long-document summarization, multi-turn agents, and retrieval-heavy workflows.
+
+Key capabilities:
+- **Tool calling** for orchestrating external actions and APIs
+- **Native JSON structured output** for reliable schema-constrained responses
+- **OpenAI-compatible API**, so you can integrate with the official OpenAI SDKs and existing codebases by simply changing the base URL and API key
+
+Pricing is straightforward and developer-friendly:
+- **Input:** $0.20 per 1M tokens
+- **Output:** $0.80 per 1M tokens
+
+The OpenAI-compatible API means no rewrites, no new abstractions, and no vendor lock-in. Drop Spark-X1 into tools like the OpenAI Python or Node SDKs, your existing function-calling setup, or frameworks such as LangChain and LlamaIndex, and start shipping today.
+
+Get started with Spark-X1 now—check the docs, grab your API key, and build your first request in minutes.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:15:11.814465,minimax/minimax-m3:free,B_structured,5,success,stop,300,203,503,2.628,77.256,139,8,8,2,2,"Introducing **Spark-X1**, a new AI model built for production-grade AI applications.
+
+Spark-X1 ships with a **128K context window**, giving you the room to handle long documents, multi-file codebases, and extended conversational memory in a single request. It supports **tool calling** and **JSON structured output**, making it straightforward to build agents, pipelines, and integrations that need reliable, machine-readable responses.
+
+Pricing is simple and predictable:
+
+- **Input:** $0.20 / 1M tokens
+- **Output:** $0.80 / 1M tokens
+
+Spark-X1 is served through an **OpenAI-compatible API**, so you can drop it into existing codebases with minimal changes. If you've already built against the OpenAI SDK or REST schema, swapping in Spark-X1 typically requires updating just your base URL and API key — no refactoring required.
+
+**Get started today:** sign up, grab your API key, and make your first call to Spark-X1 in minutes.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:16:17.315074,minimax/minimax-m3:free,C_constrained,1,success,stop,384,196,580,65.499,2.992,136,8,8,6,6,"**Title:**
+Introducing Spark-X1: A Practical LLM for Production AI Applications
+
+**Key capabilities:**
+- 128K context window for handling long documents, multi-turn conversations, and complex codebases
+- Native tool calling and JSON structured output for reliable agent workflows and integrations
+
+**Developer value:**
+Spark-X1 is built for engineers shipping real AI products. The 128K context window enables processing of extensive inputs without truncation, while first-class tool calling and JSON structured output let you build dependable agents and parseable responses without brittle prompt hacks. With an OpenAI-compatible API, you can integrate Spark-X1 using familiar SDKs and existing code patterns, minimizing migration effort and letting teams standardize on one interface across their stack.
+
+**Pricing:**
+- Input: $0.20 per 1M tokens
+- Output: $0.80 per 1M tokens
+
+**CTA:**
+Start building with Spark-X1 today and integrate it using your existing OpenAI-compatible tooling.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:16:24.591797,minimax/minimax-m3:free,C_constrained,2,success,stop,384,194,578,7.276,26.664,139,8,8,6,6,"Title:
+Spark-X1 Now Available for Production AI Applications
+
+Key capabilities:
+- 128K context window for processing long documents, multi-turn conversations, and complex codebases in a single request
+- Native support for tool calling and JSON structured output for reliable agent and workflow integration
+
+Developer value:
+Spark-X1 is designed for developers building real-world AI applications. The 128K context window enables handling of large inputs without chunking, while built-in tool calling and JSON structured output let you build agents and pipelines with predictable, machine-readable responses. The OpenAI-compatible API means you can integrate Spark-X1 using existing SDKs and code patterns, minimizing migration effort and letting your team ship faster with familiar tooling.
+
+Pricing:
+- Input: $0.20 per 1M tokens
+- Output: $0.80 per 1M tokens
+
+CTA:
+Start building with Spark-X1 today and integrate it into your stack using your existing OpenAI-compatible client.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:16:26.759070,minimax/minimax-m3:free,C_constrained,3,success,stop,384,212,596,2.165,97.922,146,8,8,6,6,"**Title:**
+Spark-X1 Now Available: A Practical LLM for Production AI Applications
+
+**Key capabilities:**
+- 128K context window for processing long documents, multi-turn conversations, and complex inputs in a single request
+- Native tool calling and JSON structured output for building reliable agents and integrations
+
+**Developer value:**
+Spark-X1 is designed for developers shipping real AI products. Its 128K context window handles long-context workflows without manual chunking, while built-in tool calling and JSON structured output let you build agents and pipelines with predictable, machine-readable results. The OpenAI-compatible API means you can integrate Spark-X1 using existing OpenAI SDKs and tools—simply update the base URL and API key. No rewrites, no new abstractions, just drop-in compatibility that fits your current stack.
+
+**Pricing:**
+- Input: $0.20 per 1M tokens
+- Output: $0.80 per 1M tokens
+
+**CTA:**
+Get started with the Spark-X1 API today and integrate it into your stack in minutes.",,8,8,8,10,1,1,1,1,1,1,0,0,1,1
+2026-09-02T20:16:29.284514,minimax/minimax-m3:free,C_constrained,4,success,stop,384,208,592,2.524,82.41,142,8,8,6,6,"**Title:**
+Spark-X1 Now Available: A Practical LLM for Production Applications
+
+**Key capabilities:**
+- 128K context window for processing long documents, multi-turn conversations, and complex prompts in a single request
+- Native tool calling and JSON structured output for building reliable agents and integrations
+
+**Developer value:**
+Spark-X1 is designed for engineers shipping real AI features, not just running demos. The 128K context window reduces the need for aggressive chunking or retrieval workarounds, while first-class tool calling and JSON structured output let you build agents, pipelines, and integrations with predictable, machine-readable responses. Combined with an OpenAI-compatible API, teams can integrate Spark-X1 using existing SDKs and code patterns, minimizing migration effort and time to production.
+
+**Pricing:**
+- Input: $0.20 per 1M tokens
+- Output: $0.80 per 1M tokens
+
+**CTA:**
+Start building with Spark-X1 today and integrate it into your stack using your existing OpenAI-compatible client.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
+2026-09-02T20:16:32.312093,minimax/minimax-m3:free,C_constrained,5,success,stop,384,204,588,3.027,67.39,140,8,8,6,6,"**Title: Spark-X1 Now Available: A Production-Ready Model for Developer Workflows**
+
+**Key capabilities:**
+- 128K context window for processing long documents, codebases, and multi-turn agent conversations in a single request.
+- Native support for tool calling and JSON structured output, enabling reliable integrations with external APIs and downstream systems.
+
+**Developer value:**
+Spark-X1 is designed to fit cleanly into existing LLM-powered applications. With its 128K context length, teams can reason over large inputs without aggressive chunking. Tool calling and JSON structured output make it straightforward to build agents and automated pipelines, while the OpenAI-compatible API means existing client libraries, SDKs, and orchestration frameworks can be reused with minimal code changes—reducing integration time and migration effort.
+
+**Pricing:**
+- Input: $0.20 per 1M tokens
+- Output: $0.80 per 1M tokens
+
+**CTA:**
+Start building with Spark-X1 today and integrate it into your stack in minutes.",,8,8,10,10,1,1,1,1,1,1,1,1,1,1
