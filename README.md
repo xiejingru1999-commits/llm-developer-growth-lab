@@ -162,36 +162,25 @@ This repository includes several developer growth documents:
 | [`docs/developer-faq.md`](docs/developer-faq.md) | Answers common developer questions about API usage, latency, token cost, context window, and failure modes |
 | [`docs/community-feedback-tracker.md`](docs/community-feedback-tracker.md) | Provides a structured template for tracking overseas developer feedback across OpenRouter, Hugging Face, GitHub, Reddit, Hacker News, Discord, X, LinkedIn, Medium, and Dev.to |
 | [`docs/weekly-growth-memo.md`](docs/weekly-growth-memo.md) | Simulates a weekly model growth review: who used it, how they used it, where they got stuck, and what to do next |
+| [`docs/project-summary-article.md`](docs/project-summary-article.md) | Summarizes the experiment, findings, limitations, and developer-growth lessons in a publishable English article |
 
-## 10. Suggested Screenshots
+## 10. Results Dashboards
 
-The following screenshots can be added to the README after charts or tables are generated:
+The dashboards below were created from the experiment results in this repository. They summarize two complementary views: model-level reliability and prompt-level quality, cost, and latency.
 
-### Dashboard Overview
+### Model Comparison Dashboard
 
-```markdown
-![Dashboard Overview](charts/dashboard-overview.png)
-```
+![Model Comparison Dashboard](04-model-comparison/screenshots/dashboard.png)
 
-### Latency Comparison
+All three models returned technically successful API responses in the nine-request comparison, but task success ranged from 0% to 100%. This illustrates why endpoint availability, task completion, and strict instruction compliance need to be tracked separately.
 
-```markdown
-![Latency Comparison](charts/latency-comparison.png)
-```
+### Prompt Evaluation Dashboard
 
-### Success Rate Comparison
+![Prompt Evaluation Dashboard](05-prompt-evaluation/screenshots/dashboard.png)
 
-```markdown
-![Success Rate Comparison](charts/success-rate-comparison.png)
-```
+Across 15 generation requests, the structured prompt produced the highest average Judge Overall score (4.8/5), the lowest average total-token usage (516.6), and a median latency of 3.025 seconds. The constrained prompt achieved the highest average Judge Accuracy score (4.6/5).
 
-### Token / Output Analysis
-
-```markdown
-![Token and Output Analysis](charts/token-output-analysis.png)
-```
-
-If chart filenames are different, update the image paths based on the actual files in the `charts/` or `results/` folder.
+> These are exploratory results from small samples: three runs per model in the model comparison and five runs per prompt variant in the prompt evaluation. They describe this test setup and should not be interpreted as production benchmarks or universal model rankings.
 
 ## 11. Example Growth Questions
 
